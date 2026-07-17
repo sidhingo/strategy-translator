@@ -4,6 +4,7 @@ import TranslationStages from './components/TranslationStages.jsx';
 import TranslationOutput from './components/TranslationOutput.jsx';
 import Footer from './components/Footer.jsx';
 import { STATIC_RESULTS } from './lib/staticResults.js';
+import { Analytics } from '@vercel/analytics/react';
 
 const STEPS = [
   { n: '01', label: 'Extract the real decision' },
@@ -149,6 +150,7 @@ export default function App() {
           <Footer />
         </div>
       </div>
-    </div>
+      <Analytics />
+      </div>
   );
 }
