@@ -36,14 +36,6 @@ tracking. Cloudflare Turnstile for bot protection. Resend for automated reportin
 
 See [`SETUP.md`](./SETUP.md) for the full technical walkthrough.
 
-## Also built
 
-[100-Day Plan Generator](https://hundred-day-plan.vercel.app), a live pipeline that researches
-any company and builds a 100-day plan in real time.
-
-## Feedback
-
-There's a feedback form at the bottom of the live tool. Bug reports and suggestions are welcome
-there or via a GitHub issue.
 
 Built by [sidhingo](https://github.com/sidhingo).
