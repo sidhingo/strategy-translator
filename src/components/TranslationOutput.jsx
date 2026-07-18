@@ -37,17 +37,17 @@ export default function TranslationOutput({ result, onReset }) {
         The Reality Check
       </p>
       <div className="border border-neutral-200 rounded overflow-hidden mb-8">
-        <div className="grid grid-cols-2 bg-neutral-50 text-xs uppercase text-neutral-400 px-4 py-2">
+        <div className="hidden lg:grid grid-cols-2 bg-neutral-50 text-xs uppercase text-neutral-400 px-4 py-2">
           <span>Stated</span>
           <span>Actual</span>
         </div>
         {result.sayDoGap.map((pair, i) => (
           <div
             key={i}
-            className="grid grid-cols-2 px-4 py-3 text-sm border-t border-neutral-200 gap-4"
+            className="grid grid-cols-1 lg:grid-cols-2 px-4 py-3 text-sm border-t border-neutral-200 gap-2 lg:gap-4"
           >
-            <span>{pair.stated}</span>
-            <span>{pair.actual}</span>
+            <span><span className="lg:hidden font-medium text-neutral-400 text-xs uppercase block mb-1">Stated</span>{pair.stated}</span>
+            <span><span className="lg:hidden font-medium text-neutral-400 text-xs uppercase block mb-1">Actual</span>{pair.actual}</span>
           </div>
         ))}
       </div>
@@ -55,7 +55,7 @@ export default function TranslationOutput({ result, onReset }) {
       <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: ACCENT }}>
         Scenario Branches
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {result.scenarios.map((s, i) => (
           <div key={i} className="border border-neutral-200 rounded p-4">
             <p className="text-sm font-semibold mb-2">{s.name}</p>

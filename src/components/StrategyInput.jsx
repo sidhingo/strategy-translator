@@ -40,7 +40,7 @@ export default function StrategyInput({ input, setInput, onGenerate, errorMsg })
         actually happening, and lays out the real tradeoffs.
       </p>
 
-      <div className="flex flex-nowrap gap-2 mb-4 items-center">
+      <div className="flex flex-wrap lg:flex-nowrap gap-2 mb-4 items-center">
       <span
           className="text-xs font-mono uppercase tracking-widest mr-1 flex-shrink-0"
           style={{ color: '#0B2545' }}

@@ -113,8 +113,8 @@ export default function App() {
           <h1 className="text-3xl font-semibold">Strategy Translator</h1>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-[260px_1fr] gap-10">
-          <aside className="md:border-r md:border-neutral-200 md:pr-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-10">
+          <aside className="lg:border-r lg:border-neutral-200 lg:pr-8">
             <p className="text-xs font-mono uppercase tracking-widest mb-4" style={{ color: '#0B2545' }}>
               How it reads this
             </p>
