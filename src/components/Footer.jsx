@@ -36,7 +36,7 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="mt-10 border-t border-neutral-200 pt-6 text-sm text-neutral-500 flex items-center gap-2 overflow-hidden">
+      <div className="mt-10 border-t border-neutral-200 pt-6 text-sm text-neutral-500 flex flex-wrap items-center gap-x-2 gap-y-1">
         <span className="flex-shrink-0 font-medium text-neutral-700">Also built:</span>
         
         <a href="https://hundred-day-plan.vercel.app"
@@ -47,7 +47,7 @@ export default function Footer() {
           100-Day Plan Generator
         </a>
         <span className="text-neutral-300 flex-shrink-0">→</span>
-        <span className="truncate">live pipeline that researches any company, builds a plan</span>
+        <span className="flex-1 min-w-[180px]">live pipeline that researches any company, builds a plan</span>
       </div>
 
       <div className="mt-8 border-t border-neutral-200 pt-8">
